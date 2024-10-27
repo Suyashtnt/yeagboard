@@ -1,0 +1,109 @@
+
+units:
+  # Proxy Spacing Variables
+  kx: cx
+  ky: cy
+  $default_width: cx
+  $default_height: cy
+  # Padding Variables
+  px: kx
+  py: ky
+  # column splay and stagger
+  pinky_splay: 9 # degrees splay relative to zone splay
+  pinky_stagger: 0 # mm, relative to previous column
+  pinky_spread: 1kx # mm, relative to previous column
+
+  ring_splay: 3
+  ring_stagger: 14
+  ring_spread: 1.2kx
+
+  middle_splay: -2
+  middle_stagger: 5
+  middle_spread: 1.1kx
+
+  index_splay: -2
+  index_stagger: -2
+  index_spread: 1kx
+
+  inner_splay: -2
+  inner_stagger: -4
+  inner_spread: 1kx
+points:
+  zones:
+    matrix:
+      anchor:
+        rotate: pinky_splay
+      key:
+        padding: 1ky
+        spread: 1kx
+        splay: -10
+      columns:
+        pinky:
+          key:
+            splay: 0
+            stagger: pinky_stagger
+            spread: pinky_spread
+            column_net: C0
+        ring:
+          key:
+            splay: ring_splay - pinky_splay
+            stagger: ring_stagger
+            spread: ring_spread
+            column_net: C1
+        middle:
+          key:
+            splay: middle_splay - ring_splay
+            stagger: middle_stagger
+            spread: middle_spread
+            column_net: C2
+        index:
+          key:
+            splay: index_splay - middle_splay
+            stagger: index_stagger
+            spread: index_spread
+            column_net: C3
+        inner:
+          key:
+            splay: inner_splay - middle_splay
+            stagger: inner_stagger
+            spread: inner_spread
+            column_net: C4
+      rows:
+        bottom:
+          row_net: R2
+          mirror.row_net: R2
+        home:
+          row_net: R1
+          mirror.row_net: R1
+        top:
+          row_net: R0
+          mirror.row_net: R0
+    thumb:
+      key:
+        padding: 1ky
+        spread: 1kx
+      anchor:
+        ref: matrix_index_bottom
+        shift: [0.kx, -1ky - 12]
+      columns:
+        inner:
+          key:
+            splay: 5
+            column_net: C2
+        home:
+          key:
+            splay: -15
+            shift: [3, -2]
+            column_net: C3
+        outer:
+          key:
+            splay: -15
+            shift: [6.5, -3.1]
+            column_net: C4
+      rows:
+        thumb:
+          row_net: 4
+          mirror.row_net: 4
+  mirror: &mirror
+    ref: matrix_inner_home
+    distance: 4kx

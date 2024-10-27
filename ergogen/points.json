@@ -1,0 +1,4572 @@
+{
+    "matrix_pinky_bottom": {
+        "x": 0,
+        "y": 0,
+        "r": 9,
+        "meta": {
+            "stagger": 0,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "pinky_bottom",
+            "name": "matrix_pinky_bottom",
+            "column_net": "C0",
+            "row_net": "R2",
+            "mirror": {
+                "row_net": "R2"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": 0,
+                    "stagger": "pinky_stagger",
+                    "spread": "pinky_spread",
+                    "column_net": "C0"
+                },
+                "rows": {},
+                "name": "pinky"
+            },
+            "row": "bottom",
+            "mirrored": false,
+            "bind": [
+                10,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "matrix_pinky_home": {
+        "x": -2.6593859,
+        "y": 16.7907018,
+        "r": 9,
+        "meta": {
+            "stagger": 0,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "pinky_home",
+            "name": "matrix_pinky_home",
+            "column_net": "C0",
+            "row_net": "R1",
+            "mirror": {
+                "row_net": "R1"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": 0,
+                    "stagger": "pinky_stagger",
+                    "spread": "pinky_spread",
+                    "column_net": "C0"
+                },
+                "rows": {},
+                "name": "pinky"
+            },
+            "row": "home",
+            "mirrored": false,
+            "bind": [
+                10,
+                0,
+                10,
+                0
+            ]
+        }
+    },
+    "matrix_pinky_top": {
+        "x": -5.3187718,
+        "y": 33.5814036,
+        "r": 9,
+        "meta": {
+            "stagger": 0,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "pinky_top",
+            "name": "matrix_pinky_top",
+            "column_net": "C0",
+            "row_net": "R0",
+            "mirror": {
+                "row_net": "R0"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": 0,
+                    "stagger": "pinky_stagger",
+                    "spread": "pinky_spread",
+                    "column_net": "C0"
+                },
+                "rows": {},
+                "name": "pinky"
+            },
+            "row": "top",
+            "mirrored": false,
+            "bind": [
+                0,
+                10,
+                10,
+                0
+            ]
+        }
+    },
+    "matrix_ring_bottom": {
+        "x": 19.1439856,
+        "y": 17.2066212,
+        "r": 3,
+        "meta": {
+            "stagger": 14,
+            "spread": 21.599999999999998,
+            "splay": -6,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "ring_bottom",
+            "name": "matrix_ring_bottom",
+            "column_net": "C1",
+            "row_net": "R2",
+            "mirror": {
+                "row_net": "R2"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "ring_splay - pinky_splay",
+                    "stagger": "ring_stagger",
+                    "spread": "ring_spread",
+                    "column_net": "C1"
+                },
+                "rows": {},
+                "name": "ring"
+            },
+            "row": "bottom",
+            "mirrored": false,
+            "bind": [
+                10,
+                0,
+                0,
+                10
+            ]
+        }
+    },
+    "matrix_ring_home": {
+        "x": 18.254274300000002,
+        "y": 34.1833233,
+        "r": 3,
+        "meta": {
+            "stagger": 14,
+            "spread": 21.599999999999998,
+            "splay": -6,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "ring_home",
+            "name": "matrix_ring_home",
+            "column_net": "C1",
+            "row_net": "R1",
+            "mirror": {
+                "row_net": "R1"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "ring_splay - pinky_splay",
+                    "stagger": "ring_stagger",
+                    "spread": "ring_spread",
+                    "column_net": "C1"
+                },
+                "rows": {},
+                "name": "ring"
+            },
+            "row": "home",
+            "mirrored": false,
+            "bind": [
+                10,
+                10,
+                10,
+                0
+            ]
+        }
+    },
+    "matrix_ring_top": {
+        "x": 17.364563000000004,
+        "y": 51.160025399999995,
+        "r": 3,
+        "meta": {
+            "stagger": 14,
+            "spread": 21.599999999999998,
+            "splay": -6,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "ring_top",
+            "name": "matrix_ring_top",
+            "column_net": "C1",
+            "row_net": "R0",
+            "mirror": {
+                "row_net": "R0"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "ring_splay - pinky_splay",
+                    "stagger": "ring_stagger",
+                    "spread": "ring_spread",
+                    "column_net": "C1"
+                },
+                "rows": {},
+                "name": "ring"
+            },
+            "row": "top",
+            "mirrored": false,
+            "bind": [
+                0,
+                10,
+                10,
+                0
+            ]
+        }
+    },
+    "matrix_middle_bottom": {
+        "x": 38.6551707,
+        "y": 23.2360208,
+        "r": -2,
+        "meta": {
+            "stagger": 5,
+            "spread": 19.8,
+            "splay": -5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "middle_bottom",
+            "name": "matrix_middle_bottom",
+            "column_net": "C2",
+            "row_net": "R2",
+            "mirror": {
+                "row_net": "R2"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "middle_splay - ring_splay",
+                    "stagger": "middle_stagger",
+                    "spread": "middle_spread",
+                    "column_net": "C2"
+                },
+                "rows": {},
+                "name": "middle"
+            },
+            "row": "bottom",
+            "mirrored": false,
+            "bind": [
+                10,
+                10,
+                0,
+                10
+            ]
+        }
+    },
+    "matrix_middle_home": {
+        "x": 39.2484621,
+        "y": 40.2256649,
+        "r": -2,
+        "meta": {
+            "stagger": 5,
+            "spread": 19.8,
+            "splay": -5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "middle_home",
+            "name": "matrix_middle_home",
+            "column_net": "C2",
+            "row_net": "R1",
+            "mirror": {
+                "row_net": "R1"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "middle_splay - ring_splay",
+                    "stagger": "middle_stagger",
+                    "spread": "middle_spread",
+                    "column_net": "C2"
+                },
+                "rows": {},
+                "name": "middle"
+            },
+            "row": "home",
+            "mirrored": false,
+            "bind": [
+                10,
+                10,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_middle_top": {
+        "x": 39.841753499999996,
+        "y": 57.215309,
+        "r": -2,
+        "meta": {
+            "stagger": 5,
+            "spread": 19.8,
+            "splay": -5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "middle_top",
+            "name": "matrix_middle_top",
+            "column_net": "C2",
+            "row_net": "R0",
+            "mirror": {
+                "row_net": "R0"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "middle_splay - ring_splay",
+                    "stagger": "middle_stagger",
+                    "spread": "middle_spread",
+                    "column_net": "C2"
+                },
+                "rows": {},
+                "name": "middle"
+            },
+            "row": "top",
+            "mirrored": false,
+            "bind": [
+                0,
+                0,
+                10,
+                0
+            ]
+        }
+    },
+    "matrix_index_bottom": {
+        "x": 56.5744066,
+        "y": 20.609048199999997,
+        "r": -2,
+        "meta": {
+            "stagger": -2,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "index_bottom",
+            "name": "matrix_index_bottom",
+            "column_net": "C3",
+            "row_net": "R2",
+            "mirror": {
+                "row_net": "R2"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "index_splay - middle_splay",
+                    "stagger": "index_stagger",
+                    "spread": "index_spread",
+                    "column_net": "C3"
+                },
+                "rows": {},
+                "name": "index"
+            },
+            "row": "bottom",
+            "mirrored": false,
+            "bind": [
+                10,
+                10,
+                0,
+                0
+            ]
+        }
+    },
+    "matrix_index_home": {
+        "x": 57.167698,
+        "y": 37.598692299999996,
+        "r": -2,
+        "meta": {
+            "stagger": -2,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "index_home",
+            "name": "matrix_index_home",
+            "column_net": "C3",
+            "row_net": "R1",
+            "mirror": {
+                "row_net": "R1"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "index_splay - middle_splay",
+                    "stagger": "index_stagger",
+                    "spread": "index_spread",
+                    "column_net": "C3"
+                },
+                "rows": {},
+                "name": "index"
+            },
+            "row": "home",
+            "mirrored": false,
+            "bind": [
+                10,
+                10,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_index_top": {
+        "x": 57.7609894,
+        "y": 54.588336399999996,
+        "r": -2,
+        "meta": {
+            "stagger": -2,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "index_top",
+            "name": "matrix_index_top",
+            "column_net": "C3",
+            "row_net": "R0",
+            "mirror": {
+                "row_net": "R0"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "index_splay - middle_splay",
+                    "stagger": "index_stagger",
+                    "spread": "index_spread",
+                    "column_net": "C3"
+                },
+                "rows": {},
+                "name": "index"
+            },
+            "row": "top",
+            "mirrored": false,
+            "bind": [
+                0,
+                0,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_inner_bottom": {
+        "x": 74.42384340000001,
+        "y": 15.9832939,
+        "r": -2,
+        "meta": {
+            "stagger": -4,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "inner_bottom",
+            "name": "matrix_inner_bottom",
+            "column_net": "C4",
+            "row_net": "R2",
+            "mirror": {
+                "row_net": "R2"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "inner_splay - middle_splay",
+                    "stagger": "inner_stagger",
+                    "spread": "inner_spread",
+                    "column_net": "C4"
+                },
+                "rows": {},
+                "name": "inner"
+            },
+            "row": "bottom",
+            "mirrored": false,
+            "bind": [
+                10,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "matrix_inner_home": {
+        "x": 75.01713480000001,
+        "y": 32.972938,
+        "r": -2,
+        "meta": {
+            "stagger": -4,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "inner_home",
+            "name": "matrix_inner_home",
+            "column_net": "C4",
+            "row_net": "R1",
+            "mirror": {
+                "row_net": "R1"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "inner_splay - middle_splay",
+                    "stagger": "inner_stagger",
+                    "spread": "inner_spread",
+                    "column_net": "C4"
+                },
+                "rows": {},
+                "name": "inner"
+            },
+            "row": "home",
+            "mirrored": false,
+            "bind": [
+                10,
+                0,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_inner_top": {
+        "x": 75.6104262,
+        "y": 49.9625821,
+        "r": -2,
+        "meta": {
+            "stagger": -4,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "inner_top",
+            "name": "matrix_inner_top",
+            "column_net": "C4",
+            "row_net": "R0",
+            "mirror": {
+                "row_net": "R0"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "inner_splay - middle_splay",
+                    "stagger": "inner_stagger",
+                    "spread": "inner_spread",
+                    "column_net": "C4"
+                },
+                "rows": {},
+                "name": "inner"
+            },
+            "row": "top",
+            "mirrored": false,
+            "bind": [
+                0,
+                0,
+                10,
+                10
+            ]
+        }
+    },
+    "thumb_inner_thumb": {
+        "x": 55.56232120000001,
+        "y": -8.373285800000005,
+        "r": 3,
+        "meta": {
+            "stagger": 0,
+            "spread": 18,
+            "splay": 5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "inner_thumb",
+            "name": "thumb_inner_thumb",
+            "column_net": "C2",
+            "row_net": 4,
+            "mirror": {
+                "row_net": 4
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx"
+                },
+                "columns": {
+                    "inner": {
+                        "key": {
+                            "splay": 5,
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    },
+                    "home": {
+                        "key": {
+                            "splay": -15,
+                            "shift": [
+                                3,
+                                -2
+                            ],
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "home"
+                    },
+                    "outer": {
+                        "key": {
+                            "splay": -15,
+                            "shift": [
+                                6.5,
+                                -3.1
+                            ],
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "outer"
+                    }
+                },
+                "rows": {
+                    "thumb": {
+                        "row_net": 4,
+                        "mirror": {
+                            "row_net": 4
+                        }
+                    }
+                },
+                "name": "thumb"
+            },
+            "col": {
+                "key": {
+                    "splay": 5,
+                    "column_net": "C2"
+                },
+                "rows": {},
+                "name": "inner"
+            },
+            "row": "thumb",
+            "mirrored": false,
+            "bind": [
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "thumb_home_thumb": {
+        "x": 76.05627220000001,
+        "y": -10.011268800000005,
+        "r": -12,
+        "meta": {
+            "stagger": 0,
+            "spread": 18,
+            "splay": -15,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                3,
+                -2
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "home_thumb",
+            "name": "thumb_home_thumb",
+            "column_net": "C3",
+            "row_net": 4,
+            "mirror": {
+                "row_net": 4
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx"
+                },
+                "columns": {
+                    "inner": {
+                        "key": {
+                            "splay": 5,
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    },
+                    "home": {
+                        "key": {
+                            "splay": -15,
+                            "shift": [
+                                3,
+                                -2
+                            ],
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "home"
+                    },
+                    "outer": {
+                        "key": {
+                            "splay": -15,
+                            "shift": [
+                                6.5,
+                                -3.1
+                            ],
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "outer"
+                    }
+                },
+                "rows": {
+                    "thumb": {
+                        "row_net": 4,
+                        "mirror": {
+                            "row_net": 4
+                        }
+                    }
+                },
+                "name": "thumb"
+            },
+            "col": {
+                "key": {
+                    "splay": -15,
+                    "shift": [
+                        3,
+                        -2
+                    ],
+                    "column_net": "C3"
+                },
+                "rows": {},
+                "name": "home"
+            },
+            "row": "thumb",
+            "mirrored": false,
+            "bind": [
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "thumb_outer_thumb": {
+        "x": 95.5284816,
+        "y": -16.886707600000005,
+        "r": -27,
+        "meta": {
+            "stagger": 0,
+            "spread": 18,
+            "splay": -15,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                6.5,
+                -3.1
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "outer_thumb",
+            "name": "thumb_outer_thumb",
+            "column_net": "C4",
+            "row_net": 4,
+            "mirror": {
+                "row_net": 4
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx"
+                },
+                "columns": {
+                    "inner": {
+                        "key": {
+                            "splay": 5,
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    },
+                    "home": {
+                        "key": {
+                            "splay": -15,
+                            "shift": [
+                                3,
+                                -2
+                            ],
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "home"
+                    },
+                    "outer": {
+                        "key": {
+                            "splay": -15,
+                            "shift": [
+                                6.5,
+                                -3.1
+                            ],
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "outer"
+                    }
+                },
+                "rows": {
+                    "thumb": {
+                        "row_net": 4,
+                        "mirror": {
+                            "row_net": 4
+                        }
+                    }
+                },
+                "name": "thumb"
+            },
+            "col": {
+                "key": {
+                    "splay": -15,
+                    "shift": [
+                        6.5,
+                        -3.1
+                    ],
+                    "column_net": "C4"
+                },
+                "rows": {},
+                "name": "outer"
+            },
+            "row": "thumb",
+            "mirrored": false,
+            "bind": [
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "mirror_matrix_pinky_bottom": {
+        "x": 222.03426960000002,
+        "y": 0,
+        "r": -9,
+        "meta": {
+            "stagger": 0,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_pinky_bottom",
+            "name": "mirror_matrix_pinky_bottom",
+            "column_net": "C0",
+            "row_net": "R2",
+            "mirror": {
+                "row_net": "R2"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": 0,
+                    "stagger": "pinky_stagger",
+                    "spread": "pinky_spread",
+                    "column_net": "C0"
+                },
+                "rows": {},
+                "name": "pinky"
+            },
+            "row": "bottom",
+            "mirrored": true,
+            "bind": [
+                10,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "mirror_matrix_pinky_home": {
+        "x": 224.6936555,
+        "y": 16.7907018,
+        "r": -9,
+        "meta": {
+            "stagger": 0,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_pinky_home",
+            "name": "mirror_matrix_pinky_home",
+            "column_net": "C0",
+            "row_net": "R1",
+            "mirror": {
+                "row_net": "R1"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": 0,
+                    "stagger": "pinky_stagger",
+                    "spread": "pinky_spread",
+                    "column_net": "C0"
+                },
+                "rows": {},
+                "name": "pinky"
+            },
+            "row": "home",
+            "mirrored": true,
+            "bind": [
+                10,
+                0,
+                10,
+                0
+            ]
+        }
+    },
+    "mirror_matrix_pinky_top": {
+        "x": 227.35304140000002,
+        "y": 33.5814036,
+        "r": -9,
+        "meta": {
+            "stagger": 0,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_pinky_top",
+            "name": "mirror_matrix_pinky_top",
+            "column_net": "C0",
+            "row_net": "R0",
+            "mirror": {
+                "row_net": "R0"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": 0,
+                    "stagger": "pinky_stagger",
+                    "spread": "pinky_spread",
+                    "column_net": "C0"
+                },
+                "rows": {},
+                "name": "pinky"
+            },
+            "row": "top",
+            "mirrored": true,
+            "bind": [
+                0,
+                10,
+                10,
+                0
+            ]
+        }
+    },
+    "mirror_matrix_ring_bottom": {
+        "x": 202.890284,
+        "y": 17.2066212,
+        "r": -3,
+        "meta": {
+            "stagger": 14,
+            "spread": 21.599999999999998,
+            "splay": -6,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_ring_bottom",
+            "name": "mirror_matrix_ring_bottom",
+            "column_net": "C1",
+            "row_net": "R2",
+            "mirror": {
+                "row_net": "R2"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "ring_splay - pinky_splay",
+                    "stagger": "ring_stagger",
+                    "spread": "ring_spread",
+                    "column_net": "C1"
+                },
+                "rows": {},
+                "name": "ring"
+            },
+            "row": "bottom",
+            "mirrored": true,
+            "bind": [
+                10,
+                0,
+                0,
+                10
+            ]
+        }
+    },
+    "mirror_matrix_ring_home": {
+        "x": 203.77999530000002,
+        "y": 34.1833233,
+        "r": -3,
+        "meta": {
+            "stagger": 14,
+            "spread": 21.599999999999998,
+            "splay": -6,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_ring_home",
+            "name": "mirror_matrix_ring_home",
+            "column_net": "C1",
+            "row_net": "R1",
+            "mirror": {
+                "row_net": "R1"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "ring_splay - pinky_splay",
+                    "stagger": "ring_stagger",
+                    "spread": "ring_spread",
+                    "column_net": "C1"
+                },
+                "rows": {},
+                "name": "ring"
+            },
+            "row": "home",
+            "mirrored": true,
+            "bind": [
+                10,
+                10,
+                10,
+                0
+            ]
+        }
+    },
+    "mirror_matrix_ring_top": {
+        "x": 204.6697066,
+        "y": 51.160025399999995,
+        "r": -3,
+        "meta": {
+            "stagger": 14,
+            "spread": 21.599999999999998,
+            "splay": -6,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_ring_top",
+            "name": "mirror_matrix_ring_top",
+            "column_net": "C1",
+            "row_net": "R0",
+            "mirror": {
+                "row_net": "R0"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "ring_splay - pinky_splay",
+                    "stagger": "ring_stagger",
+                    "spread": "ring_spread",
+                    "column_net": "C1"
+                },
+                "rows": {},
+                "name": "ring"
+            },
+            "row": "top",
+            "mirrored": true,
+            "bind": [
+                0,
+                10,
+                10,
+                0
+            ]
+        }
+    },
+    "mirror_matrix_middle_bottom": {
+        "x": 183.37909890000003,
+        "y": 23.2360208,
+        "r": 2,
+        "meta": {
+            "stagger": 5,
+            "spread": 19.8,
+            "splay": -5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_middle_bottom",
+            "name": "mirror_matrix_middle_bottom",
+            "column_net": "C2",
+            "row_net": "R2",
+            "mirror": {
+                "row_net": "R2"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "middle_splay - ring_splay",
+                    "stagger": "middle_stagger",
+                    "spread": "middle_spread",
+                    "column_net": "C2"
+                },
+                "rows": {},
+                "name": "middle"
+            },
+            "row": "bottom",
+            "mirrored": true,
+            "bind": [
+                10,
+                10,
+                0,
+                10
+            ]
+        }
+    },
+    "mirror_matrix_middle_home": {
+        "x": 182.78580750000003,
+        "y": 40.2256649,
+        "r": 2,
+        "meta": {
+            "stagger": 5,
+            "spread": 19.8,
+            "splay": -5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_middle_home",
+            "name": "mirror_matrix_middle_home",
+            "column_net": "C2",
+            "row_net": "R1",
+            "mirror": {
+                "row_net": "R1"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "middle_splay - ring_splay",
+                    "stagger": "middle_stagger",
+                    "spread": "middle_spread",
+                    "column_net": "C2"
+                },
+                "rows": {},
+                "name": "middle"
+            },
+            "row": "home",
+            "mirrored": true,
+            "bind": [
+                10,
+                10,
+                10,
+                10
+            ]
+        }
+    },
+    "mirror_matrix_middle_top": {
+        "x": 182.19251610000003,
+        "y": 57.215309,
+        "r": 2,
+        "meta": {
+            "stagger": 5,
+            "spread": 19.8,
+            "splay": -5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_middle_top",
+            "name": "mirror_matrix_middle_top",
+            "column_net": "C2",
+            "row_net": "R0",
+            "mirror": {
+                "row_net": "R0"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "middle_splay - ring_splay",
+                    "stagger": "middle_stagger",
+                    "spread": "middle_spread",
+                    "column_net": "C2"
+                },
+                "rows": {},
+                "name": "middle"
+            },
+            "row": "top",
+            "mirrored": true,
+            "bind": [
+                0,
+                0,
+                10,
+                0
+            ]
+        }
+    },
+    "mirror_matrix_index_bottom": {
+        "x": 165.459863,
+        "y": 20.609048199999997,
+        "r": 2,
+        "meta": {
+            "stagger": -2,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_index_bottom",
+            "name": "mirror_matrix_index_bottom",
+            "column_net": "C3",
+            "row_net": "R2",
+            "mirror": {
+                "row_net": "R2"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "index_splay - middle_splay",
+                    "stagger": "index_stagger",
+                    "spread": "index_spread",
+                    "column_net": "C3"
+                },
+                "rows": {},
+                "name": "index"
+            },
+            "row": "bottom",
+            "mirrored": true,
+            "bind": [
+                10,
+                10,
+                0,
+                0
+            ]
+        }
+    },
+    "mirror_matrix_index_home": {
+        "x": 164.86657160000001,
+        "y": 37.598692299999996,
+        "r": 2,
+        "meta": {
+            "stagger": -2,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_index_home",
+            "name": "mirror_matrix_index_home",
+            "column_net": "C3",
+            "row_net": "R1",
+            "mirror": {
+                "row_net": "R1"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "index_splay - middle_splay",
+                    "stagger": "index_stagger",
+                    "spread": "index_spread",
+                    "column_net": "C3"
+                },
+                "rows": {},
+                "name": "index"
+            },
+            "row": "home",
+            "mirrored": true,
+            "bind": [
+                10,
+                10,
+                10,
+                10
+            ]
+        }
+    },
+    "mirror_matrix_index_top": {
+        "x": 164.27328020000002,
+        "y": 54.588336399999996,
+        "r": 2,
+        "meta": {
+            "stagger": -2,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_index_top",
+            "name": "mirror_matrix_index_top",
+            "column_net": "C3",
+            "row_net": "R0",
+            "mirror": {
+                "row_net": "R0"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "index_splay - middle_splay",
+                    "stagger": "index_stagger",
+                    "spread": "index_spread",
+                    "column_net": "C3"
+                },
+                "rows": {},
+                "name": "index"
+            },
+            "row": "top",
+            "mirrored": true,
+            "bind": [
+                0,
+                0,
+                10,
+                10
+            ]
+        }
+    },
+    "mirror_matrix_inner_bottom": {
+        "x": 147.6104262,
+        "y": 15.9832939,
+        "r": 2,
+        "meta": {
+            "stagger": -4,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_inner_bottom",
+            "name": "mirror_matrix_inner_bottom",
+            "column_net": "C4",
+            "row_net": "R2",
+            "mirror": {
+                "row_net": "R2"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "inner_splay - middle_splay",
+                    "stagger": "inner_stagger",
+                    "spread": "inner_spread",
+                    "column_net": "C4"
+                },
+                "rows": {},
+                "name": "inner"
+            },
+            "row": "bottom",
+            "mirrored": true,
+            "bind": [
+                10,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "mirror_matrix_inner_home": {
+        "x": 147.0171348,
+        "y": 32.972938,
+        "r": 2,
+        "meta": {
+            "stagger": -4,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_inner_home",
+            "name": "mirror_matrix_inner_home",
+            "column_net": "C4",
+            "row_net": "R1",
+            "mirror": {
+                "row_net": "R1"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "inner_splay - middle_splay",
+                    "stagger": "inner_stagger",
+                    "spread": "inner_spread",
+                    "column_net": "C4"
+                },
+                "rows": {},
+                "name": "inner"
+            },
+            "row": "home",
+            "mirrored": true,
+            "bind": [
+                10,
+                0,
+                10,
+                10
+            ]
+        }
+    },
+    "mirror_matrix_inner_top": {
+        "x": 146.4238434,
+        "y": 49.9625821,
+        "r": 2,
+        "meta": {
+            "stagger": -4,
+            "spread": 18,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_inner_top",
+            "name": "mirror_matrix_inner_top",
+            "column_net": "C4",
+            "row_net": "R0",
+            "mirror": {
+                "row_net": "R0"
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx",
+                    "splay": -10
+                },
+                "columns": {
+                    "pinky": {
+                        "key": {
+                            "splay": 0,
+                            "stagger": "pinky_stagger",
+                            "spread": "pinky_spread",
+                            "column_net": "C0"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": "ring_splay - pinky_splay",
+                            "stagger": "ring_stagger",
+                            "spread": "ring_spread",
+                            "column_net": "C1"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "splay": "middle_splay - ring_splay",
+                            "stagger": "middle_stagger",
+                            "spread": "middle_spread",
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "splay": "index_splay - middle_splay",
+                            "stagger": "index_stagger",
+                            "spread": "index_spread",
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "key": {
+                            "splay": "inner_splay - middle_splay",
+                            "stagger": "inner_stagger",
+                            "spread": "inner_spread",
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "bottom": {
+                        "row_net": "R2",
+                        "mirror": {
+                            "row_net": "R2"
+                        }
+                    },
+                    "home": {
+                        "row_net": "R1",
+                        "mirror": {
+                            "row_net": "R1"
+                        }
+                    },
+                    "top": {
+                        "row_net": "R0",
+                        "mirror": {
+                            "row_net": "R0"
+                        }
+                    }
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": "inner_splay - middle_splay",
+                    "stagger": "inner_stagger",
+                    "spread": "inner_spread",
+                    "column_net": "C4"
+                },
+                "rows": {},
+                "name": "inner"
+            },
+            "row": "top",
+            "mirrored": true,
+            "bind": [
+                0,
+                0,
+                10,
+                10
+            ]
+        }
+    },
+    "mirror_thumb_inner_thumb": {
+        "x": 166.4719484,
+        "y": -8.373285800000005,
+        "r": -3,
+        "meta": {
+            "stagger": 0,
+            "spread": 18,
+            "splay": 5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_inner_thumb",
+            "name": "mirror_thumb_inner_thumb",
+            "column_net": "C2",
+            "row_net": 4,
+            "mirror": {
+                "row_net": 4
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx"
+                },
+                "columns": {
+                    "inner": {
+                        "key": {
+                            "splay": 5,
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    },
+                    "home": {
+                        "key": {
+                            "splay": -15,
+                            "shift": [
+                                3,
+                                -2
+                            ],
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "home"
+                    },
+                    "outer": {
+                        "key": {
+                            "splay": -15,
+                            "shift": [
+                                6.5,
+                                -3.1
+                            ],
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "outer"
+                    }
+                },
+                "rows": {
+                    "thumb": {
+                        "row_net": 4,
+                        "mirror": {
+                            "row_net": 4
+                        }
+                    }
+                },
+                "name": "thumb"
+            },
+            "col": {
+                "key": {
+                    "splay": 5,
+                    "column_net": "C2"
+                },
+                "rows": {},
+                "name": "inner"
+            },
+            "row": "thumb",
+            "mirrored": true,
+            "bind": [
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "mirror_thumb_home_thumb": {
+        "x": 145.9779974,
+        "y": -10.011268800000005,
+        "r": 12,
+        "meta": {
+            "stagger": 0,
+            "spread": 18,
+            "splay": -15,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                3,
+                -2
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_home_thumb",
+            "name": "mirror_thumb_home_thumb",
+            "column_net": "C3",
+            "row_net": 4,
+            "mirror": {
+                "row_net": 4
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx"
+                },
+                "columns": {
+                    "inner": {
+                        "key": {
+                            "splay": 5,
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    },
+                    "home": {
+                        "key": {
+                            "splay": -15,
+                            "shift": [
+                                3,
+                                -2
+                            ],
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "home"
+                    },
+                    "outer": {
+                        "key": {
+                            "splay": -15,
+                            "shift": [
+                                6.5,
+                                -3.1
+                            ],
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "outer"
+                    }
+                },
+                "rows": {
+                    "thumb": {
+                        "row_net": 4,
+                        "mirror": {
+                            "row_net": 4
+                        }
+                    }
+                },
+                "name": "thumb"
+            },
+            "col": {
+                "key": {
+                    "splay": -15,
+                    "shift": [
+                        3,
+                        -2
+                    ],
+                    "column_net": "C3"
+                },
+                "rows": {},
+                "name": "home"
+            },
+            "row": "thumb",
+            "mirrored": true,
+            "bind": [
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "mirror_thumb_outer_thumb": {
+        "x": 126.50578800000001,
+        "y": -16.886707600000005,
+        "r": 27,
+        "meta": {
+            "stagger": 0,
+            "spread": 18,
+            "splay": -15,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                6.5,
+                -3.1
+            ],
+            "rotate": 0,
+            "adjust": {},
+            "width": 18,
+            "height": 17,
+            "padding": 17,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "mirror_outer_thumb",
+            "name": "mirror_thumb_outer_thumb",
+            "column_net": "C4",
+            "row_net": 4,
+            "mirror": {
+                "row_net": 4
+            },
+            "zone": {
+                "key": {
+                    "padding": "1ky",
+                    "spread": "1kx"
+                },
+                "columns": {
+                    "inner": {
+                        "key": {
+                            "splay": 5,
+                            "column_net": "C2"
+                        },
+                        "rows": {},
+                        "name": "inner"
+                    },
+                    "home": {
+                        "key": {
+                            "splay": -15,
+                            "shift": [
+                                3,
+                                -2
+                            ],
+                            "column_net": "C3"
+                        },
+                        "rows": {},
+                        "name": "home"
+                    },
+                    "outer": {
+                        "key": {
+                            "splay": -15,
+                            "shift": [
+                                6.5,
+                                -3.1
+                            ],
+                            "column_net": "C4"
+                        },
+                        "rows": {},
+                        "name": "outer"
+                    }
+                },
+                "rows": {
+                    "thumb": {
+                        "row_net": 4,
+                        "mirror": {
+                            "row_net": 4
+                        }
+                    }
+                },
+                "name": "thumb"
+            },
+            "col": {
+                "key": {
+                    "splay": -15,
+                    "shift": [
+                        6.5,
+                        -3.1
+                    ],
+                    "column_net": "C4"
+                },
+                "rows": {},
+                "name": "outer"
+            },
+            "row": "thumb",
+            "mirrored": true,
+            "bind": [
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    }
+}
